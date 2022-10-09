@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="eabRdR" name="ARA_midiout" projectType="araaudioplug" useAppConfig="0"
+              displaySplashScreen="1" jucerFormatVersion="1" companyWebsite="www.sanandreas.no"
+              pluginCharacteristicsValue="pluginProducesMidiOut">
+  <MAINGROUP id="sFrSX2" name="ARA_midiout">
+    <GROUP id="{978D7EFE-7CAC-AAB4-0BA9-EE8A54038F90}" name="Source">
+      <GROUP id="{2707FF6A-0B19-78B0-09FE-B04EB16BE555}" name="GUI">
+        <FILE id="Xq6nhg" name="Dial.cpp" compile="1" resource="0" file="Source/GUI/Dial.cpp"/>
+        <FILE id="EwIFAo" name="Dial.h" compile="0" resource="0" file="Source/GUI/Dial.h"/>
+        <FILE id="JPiELL" name="MyColors.h" compile="0" resource="0" file="Source/GUI/MyColors.h"/>
+        <FILE id="iO5vtM" name="MyLookAndFeel.cpp" compile="1" resource="0"
+              file="Source/GUI/MyLookAndFeel.cpp"/>
+        <FILE id="YBbWm8" name="MyLookAndFeel.h" compile="0" resource="0" file="Source/GUI/MyLookAndFeel.h"/>
+        <FILE id="y5EZj8" name="NameLabel.cpp" compile="1" resource="0" file="Source/GUI/NameLabel.cpp"/>
+        <FILE id="GErOYX" name="NameLabel.h" compile="0" resource="0" file="Source/GUI/NameLabel.h"/>
+        <FILE id="XxrZmG" name="ParamTextBox.cpp" compile="1" resource="0"
+              file="Source/GUI/ParamTextBox.cpp"/>
+        <FILE id="vlnSN4" name="ParamTextBox.h" compile="0" resource="0" file="Source/GUI/ParamTextBox.h"/>
+      </GROUP>
+      <GROUP id="{220491B4-D169-CE44-18B1-C176EC31E51C}" name="MIDI">
+        <FILE id="iMtR2k" name="Arp.cpp" compile="1" resource="0" file="Source/Arp.cpp"/>
+        <FILE id="a2n84p" name="Arp.h" compile="0" resource="0" file="Source/Arp.h"/>
+        <FILE id="poYmdR" name="MidiLogger.cpp" compile="1" resource="0" file="Source/MidiLogger.cpp"/>
+        <FILE id="xIF9to" name="MidiLogger.h" compile="0" resource="0" file="Source/MidiLogger.h"/>
+      </GROUP>
+      <FILE id="phpPWM" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="L9wMBL" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="iFIQz2" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="GktGlz" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="s502Bg" name="PluginARADocumentController.cpp" compile="1"
+            resource="0" file="Source/PluginARADocumentController.cpp"/>
+      <FILE id="JFDBlw" name="PluginARADocumentController.h" compile="0"
+            resource="0" file="Source/PluginARADocumentController.h"/>
+      <FILE id="PY1Y7V" name="PluginARAPlaybackRenderer.cpp" compile="1"
+            resource="0" file="Source/PluginARAPlaybackRenderer.cpp"/>
+      <FILE id="rkDqvY" name="PluginARAPlaybackRenderer.h" compile="0" resource="0"
+            file="Source/PluginARAPlaybackRenderer.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ARA_midiout"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ARA_midiout"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../Library/JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
