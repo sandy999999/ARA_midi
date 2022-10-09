@@ -10,8 +10,6 @@
 
 #include "MidiLogger.h"
 
-template <typename OutputIt>
-
 MidiLogger::MidiLogger()
 {
     startTimerHz (60);
@@ -29,6 +27,7 @@ void MidiLogger::push (const MidiBuffer& buffer)
         fifo.write (1).forEach ([&] (int dest) { messages[(size_t) dest] = metadata.getMessage(); });
 }
 
+template <typename OutputIt>
 void MidiLogger::pop (OutputIt out)
 {
     fifo.read (fifo.getNumReady()).forEach ([&] (int source) { *out++ = messages[(size_t) source]; });

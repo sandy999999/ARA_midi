@@ -14,7 +14,7 @@
 #include <iterator>
 
 class MidiLogger  : public juce::Component,
-                    private Timer
+                    public Timer
 {
 public:
     MidiLogger();
