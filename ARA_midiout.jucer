@@ -18,11 +18,13 @@
               file="Source/GUI/ParamTextBox.cpp"/>
         <FILE id="vlnSN4" name="ParamTextBox.h" compile="0" resource="0" file="Source/GUI/ParamTextBox.h"/>
       </GROUP>
-      <GROUP id="{220491B4-D169-CE44-18B1-C176EC31E51C}" name="MIDI">
-        <FILE id="iMtR2k" name="Arp.cpp" compile="1" resource="0" file="Source/Arp.cpp"/>
-        <FILE id="a2n84p" name="Arp.h" compile="0" resource="0" file="Source/Arp.h"/>
-        <FILE id="poYmdR" name="MidiLogger.cpp" compile="1" resource="0" file="Source/MidiLogger.cpp"/>
-        <FILE id="xIF9to" name="MidiLogger.h" compile="0" resource="0" file="Source/MidiLogger.h"/>
+      <GROUP id="{24918394-B87B-5707-A97A-DFF308FFC5D4}" name="MIDI">
+        <FILE id="N0aJNW" name="MidiList.h" compile="0" resource="0" file="Source/GUI/MidiList.h"/>
+        <FILE id="YVed0Y" name="MidiTable.h" compile="0" resource="0" file="Source/GUI/MidiTable.h"/>
+        <FILE id="K2rJUR" name="Arp.cpp" compile="1" resource="0" file="Source/MIDI/Arp.cpp"/>
+        <FILE id="gyWCZ2" name="Arp.h" compile="0" resource="0" file="Source/MIDI/Arp.h"/>
+        <FILE id="q4QVlJ" name="MidiLogger.cpp" compile="1" resource="0" file="Source/MIDI/MidiLogger.cpp"/>
+        <FILE id="v7hJVS" name="MidiLogger.h" compile="0" resource="0" file="Source/MIDI/MidiLogger.h"/>
       </GROUP>
       <FILE id="phpPWM" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
